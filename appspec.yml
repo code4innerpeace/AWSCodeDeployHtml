@@ -8,10 +8,10 @@ hooks:
     - location: server-scripts/install.sh
       timeout: 300
       runas: ubuntu
-    - location: server-scripts/start_apache.sh
+    - location: server-scripts/start-apache.sh
       timeout: 300
       runas: ubuntu
   ApplicationStop:
-    - location: server-scripts/stop_apache.sh
+    - location: server-scripts/stop-apache.sh
       timeout: 300
       runas: ubuntu
